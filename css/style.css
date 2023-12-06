@@ -1,0 +1,32 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows:46px ;
+    grid-auto-rows: 150px;
+    width: 600px;
+    margin: auto;
+    gap: 10px;
+}
+.a{
+    background-color: #c0ccb6;
+}
+
+.div1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: #9fa2b3;
+}
+.div5 {
+    grid-column-start: 4;
+    grid-row-start: 2;
+    grid-row-end:5 ;
+    background-color: #a9b2a1;
+}
+
+
+.div12{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: #50580f;
+    height: 46px;
+}
